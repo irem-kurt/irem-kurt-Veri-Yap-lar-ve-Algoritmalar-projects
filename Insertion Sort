@@ -1,0 +1,16 @@
+1- Insertion Sort Projesi i=0 [22,27,16,2,18,6] Step1: is array[i=0] > array[i=1] ? Yes move array [i=0] Step2: is array[i=0] > array[i=2] Yes [16,22,27,2,18,6] Step3: is array[i=0] > array[i=3] Yes [2,16,22,27,18,6] Step4: is array[i=0]>array[i=4] X Step5: is array[i=0]>array[i=5] X
+
+i=1 Step1: is array[i=1] > array[i=2] ? X Step2: is array[i=1] > array[i=3] X Step3: is array[i=1] > array[i=4] X Step4: is array[i=1] > array[i=5] Yes [2,6,16,22,27,18]
+
+i=2 Step1: is array [i=2] > array [i=3]? X Step2: is array [i=2] > array [i=4]? X Step3: is array [i=2] > array [i=5]? X
+
+i=3 Step1: is array [i=3] > array [i=4]? X Step2: is array [i=3] > array [i=5]? Yes move array [i=3] [2,6,16,18,22,27]
+
+i=4 Step1: is array [i=4] > array [i=5]? X
+
+ÖRNEK2:
+1- [22,27|16,2,18,6]  
+2- [16,22,27|2,18,6]  
+3- [2,16,22,27|18,6]  
+4- [2,16,18,22,27|6]  
+5- [2,6,16,18,22,27]
